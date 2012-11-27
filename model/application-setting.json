@@ -1,0 +1,79 @@
+{
+	"info": {
+		"text": "プログラマ診断",
+		"topLogo": "./image/topLogo.jpg",
+		"topLogoDisabled": "./image/topLogoDisabled.jpg",
+		"logo": "./image/logo.png",
+		"resultLogo": "./image/resultLogo.png"
+	},
+	"messages": {
+		"requireError": "※すべての質問に回答してください"
+	},
+	"questions": [
+		{
+			"question": "あなたの好きな言語は何ですか？",
+			"questionImg": "./image/q1.png",
+			"choices":[
+                "java",
+                "Ruby",
+                "perl"
+			]
+		},
+		{
+			"question": "好きなエディタは何ですか?",
+			"questionImg": "./image/q2.png",
+			"choices":[
+				"メモ帳",
+				"バイナリエディタ",
+				"自作エディタ"
+			]
+		}
+	],
+	"results": {
+		"00": {
+			"message": "あなたは素敵なエンジニアですね★<br>これからも素晴らしいシステムを作っていきましょう♪",
+			"image": "http://www.takuan.me/facebookapp/view/image/image1.png"
+		},
+		"01": {
+			"message": "あなたは素敵なエンジニアですね★<br>これからも素晴らしいシステムを作っていきましょう♪",
+			"image": "http://www.takuan.me/facebookapp/view/image/image1.png"
+		},
+		"02": {
+			"message": "あなたは素敵なエンジニアですね★<br>これからも素晴らしいシステムを作っていきましょう♪",
+			"image": "http://www.takuan.me/facebookapp/view/image/image1.png"
+		},
+		"10": {
+			"message": "あなたは素敵なエンジニアですね★<br>これからも素晴らしいシステムを作っていきましょう♪",
+			"image": "http://www.takuan.me/facebookapp/view/image/image1.png"
+		},
+		"11": {
+			"message": "あなたは素敵なエンジニアですね★<br>これからも素晴らしいシステムを作っていきましょう♪",
+			"image": "http://www.takuan.me/facebookapp/view/image/image1.png"
+		},
+		"12": {
+			"message": "あなたは素敵なエンジニアですね★<br>これからも素晴らしいシステムを作っていきましょう♪",
+			"image": "http://www.takuan.me/facebookapp/view/image/image1.png"
+		},
+		"12": {
+			"message": "あなたは素敵なエンジニアですね★<br>これからも素晴らしいシステムを作っていきましょう♪",
+			"image": "http://www.takuan.me/facebookapp/view/image/image1.png"
+		},
+		"12": {
+			"message": "あなたは素敵なエンジニアですね★<br>これからも素晴らしいシステムを作っていきましょう♪",
+			"image": "http://www.takuan.me/facebookapp/view/image/image1.png"
+		},
+		"20": {
+			"message": "あなたは素敵なエンジニアですね★<br>これからも素晴らしいシステムを作っていきましょう♪",
+			"image": "http://www.takuan.me/facebookapp/view/image/image1.png"
+		},
+		"21": {
+			"message": "あなたは素敵なエンジニアですね★<br>これからも素晴らしいシステムを作っていきましょう♪",
+			"image": "http://www.takuan.me/facebookapp/view/image/image1.png"
+		},
+		"22": {
+			"message": "あなたは素敵なエンジニアですね★<br>これからも素晴らしいシステムを作っていきましょう♪",
+			"image": "http://www.takuan.me/facebookapp/view/image/image1.png"
+		}
+	}
+}
+

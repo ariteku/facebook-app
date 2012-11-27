@@ -1,0 +1,5 @@
+
+・signedRequestからoauth_tokenとってaccess tokenにセットしてる、それ返してる、
+key名はoauth_token
+
+・
