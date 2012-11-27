@@ -26,7 +26,7 @@ class FacebookUtils {
 		));
 	}
 
-	/*
+	/**
 	 * ログインチェック
 	 *
 	 * @author 046
@@ -52,7 +52,7 @@ class FacebookUtils {
 	 * ページがイイねされているかどうか判定する
 	 * 
 	 * @author 046
-	 * @return イイねされていれば1
+	 * @return イイねされていれば1を返す
 	 */
 	public function checkLiked() {
 		$signed = $this->facebook->getSignedRequest();
@@ -93,4 +93,3 @@ class FacebookUtils {
 	}
 
 }
-
