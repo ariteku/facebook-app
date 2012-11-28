@@ -7,6 +7,8 @@
 //  Created by takuan on 12/05/13.
 //  Copyright (c) 2012年 takuan. All rights reserved.
 //
+error_log("result.php:: start");
+
 header('p3p: CP="ALL DSP COR PSAa PSDa OUR NOR ONL UNI COM NAV"');
 header("Content-type: text/html; charset=utf-8");
 
@@ -57,7 +59,7 @@ if(isset($confObj['results'][$result]['message'])){
 	);
 }
 
-?>
+require_once('./result.page.php');
 
-<?php require_once('./result.page.php'); ?>
+error_log("result.php:: end");
 

@@ -1,8 +1,8 @@
-
 /**
- * ラジオボックスにチェックが入っているか調べる関数
- * @author 046
- * @param int ラジオボックスの数
+ * すべてのチェックボックスにチェックが入っていればボタンを有効化する
+ *
+ * @author takuan
+ * @param ラジオボックスの数
  */
 var checkRadio = function(radioLength) {
 
@@ -27,11 +27,8 @@ var checkRadio = function(radioLength) {
 		if(!isCheckFlg) {
 			break;
 		}
-
 	}
-
 	// サブミットボタンの活性状態を変更
 	document.form.submit.disabled = !isCheckFlg;
-
 }
 

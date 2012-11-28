@@ -7,10 +7,10 @@
 //  Created by takuan on 12/05/13.
 //  Copyright (c) 2012年 takuan. All rights reserved.
 //
+error_log("question.php:: start");
+
 header('p3p: CP="ALL DSP COR PSAa PSDa OUR NOR ONL UNI COM NAV"');
 header("Content-type: text/html; charset=utf-8");
-
-error_log("question.php:: start");
 
 require_once(__DIR__.'/../model/FacebookUtils.php');
 $fbUtils = new FacebookUtils();
@@ -30,8 +30,7 @@ if($file === false) {
 	}
 }
 
-?>
+require_once('./question.page.php');
 
-<?php require_once('./question.page.php'); ?>
+error_log("question.php:: end");
 
-<?php error_log("question.php:: end"); ?>

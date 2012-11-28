@@ -7,6 +7,8 @@
 //  Created by takuan on 12/05/13.
 //  Copyright (c) 2012年 takuan. All rights reserved.
 //
+error_log("index.php:: start");
+
 header('p3p: CP="ALL DSP COR PSAa PSDa OUR NOR ONL UNI COM NAV"');
 header("Content-type: text/html; charset=utf-8");
 
@@ -15,8 +17,6 @@ require_once(__DIR__.'/../model/ApplicationConstants.php');
 
 $fb = new FacebookUtils();
 $fb->checkLogin();
-
-error_log("index.php:: start");
 
 // 設定ファイル読み込み
 $file = file_get_contents(__DIR__.'/../model/'.ApplicationConstants::settingJsonPath);
