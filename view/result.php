@@ -59,7 +59,7 @@ if(isset($confObj['results'][$result]['message'])){
 	);
 }
 
-require_once('./result.page.php');
+require_once('./pages/result.page.php');
 
 error_log("result.php:: end");
 

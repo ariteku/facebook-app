@@ -4,8 +4,8 @@
 //
 //  Facebook APIを処理するクラス
 //
-//  Created by 046 on 12/05/13.
-//  Copyright (c) 2012年 FeelCompany. All rights reserved.
+//  Created by takuan on 12/05/13.
+//  Copyright (c) 2012年 takuan. All rights reserved.
 //
 include __DIR__.'/../vendor/php-sdk/src/facebook.php';
 include __DIR__.'/ApplicationConstants.php';

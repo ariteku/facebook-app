@@ -4,8 +4,8 @@
 //
 //  アプリケーション共通の定数
 //
-//  Created by 046 on 12/05/13.
-//  Copyright (c) 2012年 FeelCompany. All rights reserved.
+//  Created by takuan on 12/05/13.
+//  Copyright (c) 2012年 takuan. All rights reserved.
 //
 
 class ApplicationConstants {

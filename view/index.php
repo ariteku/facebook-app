@@ -32,7 +32,7 @@ if($file === false) {
 	}
 }
 
-require_once('./index.page.php');
+require_once('./pages/index.page.php');
 
 error_log("index.php:: end");
 

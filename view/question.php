@@ -30,7 +30,7 @@ if($file === false) {
 	}
 }
 
-require_once('./question.page.php');
+require_once('./pages/question.page.php');
 
 error_log("question.php:: end");
 
